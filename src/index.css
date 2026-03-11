@@ -102,4 +102,21 @@
   .animate-pulse-ring {
     animation: pulse-ring 1.5s ease-out infinite;
   }
+  @keyframes gradient-shift {
+    0%, 100% { transform: translate(0%, 0%) scale(1); }
+    25% { transform: translate(10%, -15%) scale(1.1); }
+    50% { transform: translate(-5%, 10%) scale(0.95); }
+    75% { transform: translate(-10%, -5%) scale(1.05); }
+  }
+  @keyframes gradient-shift-2 {
+    0%, 100% { transform: translate(0%, 0%) scale(1.1); }
+    25% { transform: translate(-15%, 10%) scale(1); }
+    50% { transform: translate(10%, -10%) scale(1.15); }
+    75% { transform: translate(5%, 15%) scale(0.9); }
+  }
+  @keyframes gradient-shift-3 {
+    0%, 100% { transform: translate(5%, -5%) scale(1); }
+    33% { transform: translate(-10%, 15%) scale(1.1); }
+    66% { transform: translate(15%, 5%) scale(0.95); }
+  }
 }
